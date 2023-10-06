@@ -1089,9 +1089,7 @@
    candidatesSalary.textContent='4,500'
    teilursFee.textContent='1,125'
    bar.style.width='45%'
-   }
-   
-   else if(data.group === 'HR & Internal Ops' && data.internal === 'Payroll Specialist' && data.level === 'Mid Level') {
+   }else if(data.group === 'HR & Internal Ops' && data.internal === 'Payroll Specialist' && data.level === 'Mid Level') {
    price.textContent='1,000'
    total.textContent='1,000'
    median.textContent='1,000'
@@ -1208,9 +1206,7 @@
    candidatesSalary.textContent='2,000'
    teilursFee.textContent='500'
    bar.style.width='45%'
-   }
-   
-   else if(data.group === 'Marketing & Branding' && data.marketing === 'Marketing Manager' && data.level === 'Mid Level') {
+   }else if(data.group === 'Marketing & Branding' && data.marketing === 'Marketing Manager' && data.level === 'Mid Level') {
    price.textContent='2,500'
    total.textContent='2,500'
    median.textContent='2,500'
@@ -1283,7 +1279,7 @@
    teilursFee.textContent='500'
    bar.style.width='37%' 
    }else if(data.group === 'Marketing & Branding' && data.marketing === 'SEO Specialist' && data.level === 'Manager/Director Level') {
-  price.textContent='3,750'
+   price.textContent='3,750'
    total.textContent='3,750'
    median.textContent='3,750'
    min.textContent='3,125'
@@ -1480,9 +1476,7 @@
    candidatesSalary.textContent='3,000'
    teilursFee.textContent='750'
    bar.style.width='45%'
-   }
-   
-   else if(data.group === 'Data & Analytics' && data.analytics === 'Data Analyst' && data.level === 'Mid Level') {
+   }else if(data.group === 'Data & Analytics' && data.analytics === 'Data Analyst' && data.level === 'Mid Level') {
    price.textContent='3,750'
    total.textContent='3,750'
    median.textContent='3,750'
