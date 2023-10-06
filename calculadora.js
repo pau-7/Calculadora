@@ -1677,6 +1677,7 @@
   })
   const selectGroup = document.getElementById('group-select') 
   selectGroup.addEventListener('change', (e)=>{
+	   console.log('calculadora')
     data={
       ...data,
       group: e.target.value
