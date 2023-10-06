@@ -1710,7 +1710,7 @@ selectSales.addEventListener('change', (e)=>{
 })
 
   const selectProduct = document.getElementById('Product-Dev-Design') 
-  electProduct.addEventListener('change', (e)=>{
+  selectProduct.addEventListener('change', (e)=>{
 	data={
   	...data,
     product: e.target.value
