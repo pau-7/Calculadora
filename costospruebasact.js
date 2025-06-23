@@ -1,4 +1,4 @@
-var Webflow = Webflow || [];
+FFvar Webflow = Webflow || [];
 let data={
   group: '',
   experience:'',
@@ -1104,13 +1104,13 @@ if (data.group !=='') {
     teilursFee.textContent='750'
     bar.style.width='50%' 
     }else if(data.group === 'Development & Engineering' && data.experience === 'Cybersecurity' && data.level === 'Manager/Director Level') {
-    price.textContent='5,000'
-    total.textContent='5,000'
-    median.textContent='5,000'
-    min.textContent='4,500'
-    max.textContent='5,500'
-    candidatesSalary.textContent='4,000'
-    teilursFee.textContent='1,000'
+    price.textContent='6,500'
+    total.textContent='6,500'
+    median.textContent='6,500'
+    min.textContent='5,500'
+    max.textContent='7,500'
+    candidatesSalary.textContent='5,200'
+    teilursFee.textContent='1,300'
     bar.style.width='50%' 
     }else if(data.group === 'Development & Engineering' && data.experience === 'Full-Stack Developer' && data.level === 'Mid Level') {
     price.textContent='4,375'
