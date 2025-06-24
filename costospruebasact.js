@@ -1,4 +1,4 @@
-FFvar Webflow = Webflow || [];
+var Webflow = Webflow || [];
 let data={
   group: '',
   experience:'',
